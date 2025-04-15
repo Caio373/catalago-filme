@@ -1,0 +1,31 @@
+ // $host = "127.0.0.1";
+    // $port = "3306";
+    // $dbName = "filmesdb";
+    // $user = "root";
+    // $pass = "";
+
+    // $connUrl = "mysql:host=$host;port=$port;dbname=$dbName;charset=utf8mb4";
+
+    // $pdo = new PDO($connUrl, $user, $pass);
+
+    // $query = "SELECT * FROM filme";
+    // $stmt = $pdo->prepare($query);
+    // $stmt->execute();
+
+    // $filmes = $stmt->fetchAll();
+
+    // echo"<pre>";
+    // print_r($filmes);
+    // echo "</pre>";
+
+
+
+
+    <section class="conteiner">
+        <h2>Editar Filme</h2>
+
+        <input type="text" value="<?php echo $filme->nome ?>">
+        <input type="text" value="<?php echo $filme->ano ?>">
+        <input type="text" value="<?php echo $filme->descricao ?>">
+
+    </section>
